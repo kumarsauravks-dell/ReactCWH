@@ -1,0 +1,4 @@
+1. WAP to return a heading Hello "User" , where user is coming from a variable 'name' along with lorem34.
+    Also give a class 'blank' to the heading and change its color to red.
+
+2. 

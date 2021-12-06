@@ -1,0 +1,36 @@
+Install :-
+ Node 
+ React dev tools - chrome extension
+ Vs Code Extensions :-
+  thunderclient - postman alternative
+  Es7 React/Redux/GraphQL 
+  Bracket Pair Colorizer
+  Auto Rename Tag 
+  Live Server
+  Prettier  
+
+Official Documentation - www.reactjs.org
+
+Command to create a new react app :-
+ npm i -g create-react-app - when you want to store create-react-app in harddisk.
+ npx create-react-app my-app - make use of create-react-app online.
+
+--------------------------------------------
+#Video 4 
+Basics - When we open public/index.html(the entry point of our application), we can see there is a div with id='root'
+          Now when we goto src/index.js , we can see <App /> is placed inside the div having the id 'root'. It means any change we do in app.js is reflected in the application.
+
+JSX - Ek HTML hi hai jisne javascript ka mukut pehna hai. JSX ka faida hai hum iske andar andar javascript use kr skte hain.
+          difference in html and jsx :- class => className , for => htmlFor , tabindex -> tabIndex
+          We can return only one element from JSX at the end. We can also use JSX fragment.
+          return k baad paranthesis kyun lagai? -> ek semicolon hmare jsx ko kharab kar skti hai isliye.
+          hum kyun nhi likh skte name='<b>AnyName</b>' aur wo hme bold me dekhne ko mil jaye? -> Reaxt sanitise krta hai taki koi bhi kuch malicious content likh k nhi jaye jo execute ho jaye.
+          Babel is the compiler which compile all the JSX code to normal javascript.
+
+Enable Emmit in VS Code
+  - goto Settings(Left bottom most icon) -> search 'emmet' -> 
+    goto Emmet:Include Languages -> AddItem -> javascript javascriptreact
+    click on Open Settings(UI) icon right side -> "javascript" : "javascriptreact"
+
+
+
